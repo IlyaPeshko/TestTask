@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FullTask" verbose="1" >
+    <test name="collected">
+        <classes>
+            <class name="task_1"/>
+            <class name="task_2"/>
+            <class name="task_3"/>
+            <class name="task_4"/>
+        </classes>
+    </test>
+
+</suite>
+
