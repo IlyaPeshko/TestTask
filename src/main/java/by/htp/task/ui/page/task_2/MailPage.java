@@ -11,9 +11,6 @@ import static org.openqa.selenium.Keys.ENTER;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by user on 07.08.17.
- */
 public class MailPage extends Page {
 
     private int sleep = 1000;
