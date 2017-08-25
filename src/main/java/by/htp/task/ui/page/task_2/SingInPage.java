@@ -1,15 +1,12 @@
 package by.htp.task.ui.page.task_2;
 
+import by.htp.task.ui.page.Page;
 import by.htp.task.ui.page.task_2.bo.Account;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-/**
- * Created by user on 07.08.17.
- */
-public class SingInPage extends Page{
+public class SingInPage extends Page {
 
     @FindBy(how= How.ID, id="identifierId")
     WebElement emailElement;
@@ -21,21 +18,53 @@ public class SingInPage extends Page{
     WebElement passwordElement;
 
     @FindBy(how= How.ID, id="passwordNext")
-    WebElement buttonPasswordNextdElement;
+    WebElement buttonPasswordNextElement;
 
+    public SingInPage(WebDriver driver) {
+        super(driver);
+    }
 
-    public MailPage singIn(WebDriver webDriver, Account account) throws InterruptedException {
-        logger("task 2");
-        logger("sing in: " + account);
-
-        webDriver.get("http://gmail.com");
+    public SingInPage putEmail (Account account){
         emailElement.sendKeys(account.getEmail());
+
+        return this;
+    }
+
+    public SingInPage clickNextGoToPassword (){
         buttonElement.click();
-        Thread.sleep(1000);
+        return this;
+
+    }
+
+    public SingInPage putPassword (Account account){
         passwordElement.sendKeys(account.getPassword());
 
-        buttonPasswordNextdElement.click();
-
-        return new MailPage();
+        return this;
     }
+
+    public MailPage clickNextGoToMailPage () throws InterruptedException {
+        Thread.sleep(1000);
+        buttonPasswordNextElement.click();
+
+        return new MailPage(driver);
+    }
+
+    //delete
+
+    public MailPage singIn(WebDriver driver, Account account) throws InterruptedException {
+        logger("sing In: " + account);
+        init(driver);
+
+        emailElement.sendKeys(account.getEmail());
+        buttonElement.click();
+        //waitElement(driver, passwordElement);
+        //(new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(passwordElement))
+
+        passwordElement.sendKeys(account.getPassword());
+        buttonPasswordNextElement.click();
+
+        return new MailPage(driver);
+    }
+
+
 }
