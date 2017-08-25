@@ -1,13 +1,10 @@
 package by.htp.task.ui.page.task_2;
 
+import by.htp.task.ui.page.Page;
 import by.htp.task.ui.page.task_2.bo.Account;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
 
 import static org.openqa.selenium.Keys.ENTER;
 
@@ -17,35 +14,147 @@ import java.util.List;
 /**
  * Created by user on 07.08.17.
  */
-public class MailPage extends Page{
+public class MailPage extends Page {
 
     private int sleep = 1000;
-    private static final String sent = "https://mail.google.com/mail/#sent";
-    private static final String spam = "https://mail.google.com/mail/#spam";
+    private static final String sentURL = "https://mail.google.com/mail/#sent";
+    private static final String spamURL = "https://mail.google.com/mail/#spam";
+    private static final By letterCounter = By.xpath("//tr[@draggable='true']");
+    private static boolean result;
+    private static String driverUrl;
 
     @FindBy(how= How.XPATH, xpath=".//*[@href='https://mail.google.com/mail/#sent']")
     WebElement sentElement;
-
     @FindBy(how= How.XPATH, xpath=".//span[@class='ait']/div")
-    WebElement clickVisible;
-
+    WebElement clickVisibleElement;
     @FindBy(how= How.XPATH, xpath=".//*[@href='https://mail.google.com/mail/#spam']")
     WebElement spamElement;
-
     @FindBy(how= How.XPATH, xpath=".//*[@href='https://accounts.google.com/SignOutOptions?hl=ru&continue=https://mail.google.com/mail&service=mail']")
     WebElement EElement;
-
     @FindBy(how= How.XPATH, xpath=".//*[@aria-label='Информация об аккаунте']/div[3]/div[2]/a")
     WebElement logOutElement;
+    @FindBy(how= How.XPATH, xpath=".//*[@id='gbqfq']")
+    WebElement searchElement;
 
-    private static final By letterCounter = By.xpath("//tr[@draggable='true']");
+    @FindBy(how= How.XPATH, xpath=".//div[@role='button'][@gh='cm']")
+    WebElement newMailElement;
+    @FindBy(how= How.XPATH, xpath=".//*[@aria-autocomplete='list']")
+    WebElement inputEmailElement;
+    @FindBy(how= How.XPATH, xpath=".//*[@name='subjectbox']")
+    WebElement inputSubjectElement;
+    @FindBy(how= How.XPATH, xpath=".//*[@role='textbox']")
+    WebElement inputTextElement;
+    @FindBy(how= How.XPATH, xpath=".//*[@data-tooltip='Отправить \u202A(⌘Enter)\u202C']")
+    WebElement sentButtonElement;
+
+
+    public MailPage(WebDriver driver) {
+        super(driver);
+    }
+
+    public List checkQuantityLetters (String log, WebDriver driver) throws InterruptedException {
+        List <WebElement> listInBox = driver.findElements(letterCounter);
+        logger(log + " : " + listInBox.size());
+
+        driver.navigate().refresh();
+
+        return listInBox;
+    }
+
+    public boolean verifyPage (WebDriver driver, String currentUrl) throws InterruptedException {
+        driverUrl = driver.getCurrentUrl().toString();
+        logger("comparing: " + driverUrl  + " AND " + currentUrl);
+        result = driverUrl.equals(currentUrl);
+        logger("result: " + result);
+
+        return result;
+    }
+
+    public List<List<String>> searchLetterByWord(WebDriver driver, String searchWord) throws InterruptedException {
+        logger("try find letter with '"+searchWord+"'");
+        searchElement.clear();
+        searchElement.sendKeys("label:inbox "+searchWord + ENTER);
+        driver.navigate().refresh();
+        driver.navigate().refresh();
+
+        List <WebElement> listInBox = driver.findElements(letterCounter);
+        List <String> listInBoxString = new ArrayList<String>();
+
+        for (WebElement element : listInBox) {
+            listInBoxString.add(element.getText().toString());
+        }
+
+        logger("found: " + listInBoxString.size());
+
+        List collection = new ArrayList();
+        collection.add(listInBoxString);
+
+        return collection;
+    }
+
+    public MailPage sentMail (Account account){
+        logger("sent mail to " + account.getEmail());
+        newMailElement.click();
+
+        inputEmailElement.sendKeys(account.getEmail());
+        inputSubjectElement.sendKeys("subject");
+        inputTextElement.sendKeys("automation message");
+
+        sentButtonElement.click();
+
+        return this;
+    }
+
+    public void logOut (WebDriver driver){
+        driver.navigate().refresh();
+        EElement.click();
+        logOutElement.click();
+        try {
+            Alert alert = driver.switchTo().alert();
+            alert.accept();
+        }catch (UnhandledAlertException e) {
+            logger(e);
+            driver.navigate().refresh();
+            EElement.click();
+            logOutElement.click();
+        }
+
+        logger("logOut");
+    }
+
+    public MailPage clickSentLetters (){
+        sentElement.click();
+
+        return this;
+    }
+
+    public MailPage clickSpamLetters (){
+        spamElement.click();
+
+        return this;
+    }
+
+    public MailPage clickOpenAllMenu() {
+        clickVisibleElement.click();
+
+        return this;
+    }
+
+
+
+
+
+
+    ///////////////////////////////////
+
+
 
     private boolean sentPage;
     private boolean spamPage;
 
     public void verifyPage (WebDriver webDriver) throws InterruptedException {
         logger("verifyPage");
-        PageFactory.initElements(webDriver, this);
+        //PageFactory.initElements(webDriver, this);
 
         Thread.sleep(sleep);
         //logger("inbox page "+ verifyCurrentPage(webDriver.getCurrentUrl().toString(), inbox));
@@ -55,90 +164,29 @@ public class MailPage extends Page{
 
         sentElement.click();
         Thread.sleep(sleep);
-        sentPage = verifyCurrentPage(webDriver.getCurrentUrl().toString(), sent);
-        logger("now in sent page: "+ sentPage);
+        sentPage = verifyCurrentPage(webDriver.getCurrentUrl().toString(), sentURL);
+        logger("now in sentURL page: "+ sentPage);
 
         Thread.sleep(sleep);
         webDriver.navigate().refresh();
         List <WebElement> listSent = webDriver.findElements(letterCounter);
         logger("Sent letters: "+ listSent.size());
 
-        clickVisible.click();
+        clickVisibleElement.click();
         spamElement.click();
         Thread.sleep(sleep);
-        spamPage = verifyCurrentPage(webDriver.getCurrentUrl().toString(), spam);
-        logger("now in spam page: "+ spamPage);
+        spamPage = verifyCurrentPage(webDriver.getCurrentUrl().toString(), spamURL);
+        logger("now in spamURL page: "+ spamPage);
         webDriver.navigate().refresh();
         List <WebElement> listSpam = webDriver.findElements(letterCounter);
         logger("Spam letters: "+ listSpam.size());
 
     }
 
-    @FindBy(how= How.XPATH, xpath=".//*[@id='gbqfq']")
-    WebElement searchElement;
 
-    public int searchLetterByWord(WebDriver webDriver, String searchWord) throws InterruptedException {
-        logger("searchLetterByWord");
-        PageFactory.initElements(webDriver, this);
-        Thread.sleep(sleep);
-        logger("try find letter with '"+searchWord+"'");
-        searchElement.clear();
-        searchElement.sendKeys("label:inbox "+searchWord + ENTER);
-        Thread.sleep(sleep);
-        webDriver.navigate().refresh();
 
-        List <WebElement> listInBox = webDriver.findElements(letterCounter);
-        List <String> listInBoxString = new ArrayList<String>();
 
-        for (WebElement element : listInBox) {
-            listInBoxString.add(element.getText().toString());
-        }
 
-        logger("result: " + listInBoxString);
-
-        return listInBoxString.size();
-    }
-
-    public void logOut (WebDriver webDriver){
-
-        webDriver.navigate().refresh();
-        EElement.click();
-        logOutElement.click();
-        Alert alert = webDriver.switchTo().alert();
-        System.out.println(alert.getText());
-        alert.accept();
-        logger("logOut");
-
-    }
-
-    @FindBy(how= How.XPATH, xpath=".//div[@role='button'][@gh='cm']")
-    WebElement newMail;
-
-    @FindBy(how= How.XPATH, xpath=".//*[@aria-autocomplete='list']")
-    WebElement inputEmail;
-
-    @FindBy(how= How.XPATH, xpath=".//*[@name='subjectbox']")
-    WebElement inputSubject;
-
-    @FindBy(how= How.XPATH, xpath=".//*[@role='textbox']")
-    WebElement inputText;
-
-    @FindBy(how= How.XPATH, xpath=".//*[@data-tooltip='Отправить \u202A(⌘Enter)\u202C']")
-    WebElement sentButton;
-
-    public void sentMail (WebDriver webDriver, Account account){
-        logger("sent mail");
-        PageFactory.initElements(webDriver, this);
-
-        newMail.click();
-
-        inputEmail.sendKeys(account.getEmail());
-        inputSubject.sendKeys("subject");
-        inputText.sendKeys("automation message");
-
-        sentButton.click();
-
-    }
 
     private static boolean verifyCurrentPage(String first, String second) {
 
