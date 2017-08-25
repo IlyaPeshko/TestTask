@@ -1,5 +1,6 @@
 package by.htp.task.ui.page.task_3;
 
+import by.htp.task.ui.page.Page;
 import by.htp.task.ui.page.task_3.bo.Combination;
 
 import org.openqa.selenium.WebDriver;
@@ -32,6 +33,10 @@ public class HomePage extends Page {
 
     private static final int _SLEEP = 500;
 
+    public HomePage(WebDriver driver) {
+        super(driver);
+    }
+
     public TicketsPage putInfo (WebDriver driver, Combination combination) throws InterruptedException {
         logger("task 3");
         logger(combination);
@@ -46,7 +51,7 @@ public class HomePage extends Page {
         returnDate.sendKeys(combination.getReturnDate());
         findButton.click();
 
-        return new TicketsPage ();
+        return new TicketsPage (driver);
     }
 
 

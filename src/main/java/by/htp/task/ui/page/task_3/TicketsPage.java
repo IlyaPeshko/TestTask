@@ -1,5 +1,6 @@
 package by.htp.task.ui.page.task_3;
 
+import by.htp.task.ui.page.Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,6 +27,10 @@ public class TicketsPage extends Page {
 
     private static boolean totalprice;
 
+    public TicketsPage(WebDriver driver) {
+        super(driver);
+    }
+
     public PassengerInfoPage selectTicket (WebDriver driver) throws InterruptedException {
         logger("select tickets");
         PageFactory.initElements(driver, this);
@@ -40,7 +45,7 @@ public class TicketsPage extends Page {
 
         continueButton.click();
 
-        return new PassengerInfoPage();
+        return new PassengerInfoPage(driver);
     }
 
     @FindBy(how= How.XPATH, xpath=".//*[@id='tripPriceTotals']/div/div/div[2]/span[3]")

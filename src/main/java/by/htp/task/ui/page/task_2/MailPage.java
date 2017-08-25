@@ -52,7 +52,7 @@ public class MailPage extends Page {
         super(driver);
     }
 
-    public List checkQuantityLetters (String log, WebDriver driver) throws InterruptedException {
+    public List checkQuantityLetters (String log, WebDriver driver){
         List <WebElement> listInBox = driver.findElements(letterCounter);
         logger(log + " : " + listInBox.size());
 
@@ -61,7 +61,7 @@ public class MailPage extends Page {
         return listInBox;
     }
 
-    public boolean verifyPage (WebDriver driver, String currentUrl) throws InterruptedException {
+    public boolean verifyPage (WebDriver driver, String currentUrl){
         driverUrl = driver.getCurrentUrl().toString();
         logger("comparing: " + driverUrl  + " AND " + currentUrl);
         result = driverUrl.equals(currentUrl);
@@ -70,7 +70,7 @@ public class MailPage extends Page {
         return result;
     }
 
-    public List<List<String>> searchLetterByWord(WebDriver driver, String searchWord) throws InterruptedException {
+    public List<List<String>> searchLetterByWord(WebDriver driver, String searchWord) {
         logger("try find letter with '"+searchWord+"'");
         searchElement.clear();
         searchElement.sendKeys("label:inbox "+searchWord + ENTER);
@@ -106,10 +106,10 @@ public class MailPage extends Page {
     }
 
     public void logOut (WebDriver driver){
-        driver.navigate().refresh();
         EElement.click();
-        logOutElement.click();
+
         try {
+            logOutElement.click();
             Alert alert = driver.switchTo().alert();
             alert.accept();
         }catch (UnhandledAlertException e) {
@@ -139,74 +139,4 @@ public class MailPage extends Page {
 
         return this;
     }
-
-
-
-
-
-
-    ///////////////////////////////////
-
-
-
-    private boolean sentPage;
-    private boolean spamPage;
-
-    public void verifyPage (WebDriver webDriver) throws InterruptedException {
-        logger("verifyPage");
-        //PageFactory.initElements(webDriver, this);
-
-        Thread.sleep(sleep);
-        //logger("inbox page "+ verifyCurrentPage(webDriver.getCurrentUrl().toString(), inbox));
-
-        List <WebElement> listInBox = webDriver.findElements(letterCounter);
-        logger("InBox letters: " + listInBox.size());
-
-        sentElement.click();
-        Thread.sleep(sleep);
-        sentPage = verifyCurrentPage(webDriver.getCurrentUrl().toString(), sentURL);
-        logger("now in sentURL page: "+ sentPage);
-
-        Thread.sleep(sleep);
-        webDriver.navigate().refresh();
-        List <WebElement> listSent = webDriver.findElements(letterCounter);
-        logger("Sent letters: "+ listSent.size());
-
-        clickVisibleElement.click();
-        spamElement.click();
-        Thread.sleep(sleep);
-        spamPage = verifyCurrentPage(webDriver.getCurrentUrl().toString(), spamURL);
-        logger("now in spamURL page: "+ spamPage);
-        webDriver.navigate().refresh();
-        List <WebElement> listSpam = webDriver.findElements(letterCounter);
-        logger("Spam letters: "+ listSpam.size());
-
-    }
-
-
-
-
-
-
-    private static boolean verifyCurrentPage(String first, String second) {
-
-        return verifyLink(first, second);
-    }
-
-    private static boolean verifyLink (String link, String element) {
-
-        if (link.equals(element)){
-            return true;
-        }
-        return false;
-    }
-
-    public boolean isSentPage() {
-        return sentPage;
-    }
-
-    public boolean isSpamPage() {
-        return spamPage;
-    }
-
 }

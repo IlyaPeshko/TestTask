@@ -43,28 +43,9 @@ public class SingInPage extends Page {
     }
 
     public MailPage clickNextGoToMailPage () throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(300);
         buttonPasswordNextElement.click();
 
         return new MailPage(driver);
     }
-
-    //delete
-
-    public MailPage singIn(WebDriver driver, Account account) throws InterruptedException {
-        logger("sing In: " + account);
-        init(driver);
-
-        emailElement.sendKeys(account.getEmail());
-        buttonElement.click();
-        //waitElement(driver, passwordElement);
-        //(new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(passwordElement))
-
-        passwordElement.sendKeys(account.getPassword());
-        buttonPasswordNextElement.click();
-
-        return new MailPage(driver);
-    }
-
-
 }

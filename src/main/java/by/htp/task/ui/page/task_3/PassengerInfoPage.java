@@ -1,5 +1,6 @@
 package by.htp.task.ui.page.task_3;
 
+import by.htp.task.ui.page.Page;
 import by.htp.task.ui.page.task_3.bo.Passenger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,10 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class PassengerInfoPage extends Page {
+
+    public PassengerInfoPage(WebDriver driver) {
+        super(driver);
+    }
 
     public CreditCardPage putPassengerInfo (WebDriver driver, Passenger passenger) throws InterruptedException {
         logger("putPassengerInfo");
@@ -20,7 +25,7 @@ public class PassengerInfoPage extends Page {
         putPassengerContactInformation(passenger);
 
         continueButton.click();
-        return new CreditCardPage ();
+        return new CreditCardPage (driver);
     }
 
     private void putPassengerName (Passenger passenger) {

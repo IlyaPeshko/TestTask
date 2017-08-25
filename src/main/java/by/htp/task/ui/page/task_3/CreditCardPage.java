@@ -1,5 +1,6 @@
 package by.htp.task.ui.page.task_3;
 
+import by.htp.task.ui.page.Page;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,6 +13,10 @@ import org.openqa.selenium.support.PageFactory;
 public class CreditCardPage extends Page {
     @FindBy(how= How.ID, id="continue_button")
     WebElement purchaseButton;
+
+    public CreditCardPage(WebDriver driver) {
+        super(driver);
+    }
 
     public void checkComplitePurchseButton (WebDriver driver) throws InterruptedException {
 

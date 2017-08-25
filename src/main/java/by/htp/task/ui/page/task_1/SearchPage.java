@@ -15,9 +15,9 @@ public class SearchPage extends Page {
         super(driver);
     }
 
-    public boolean findOnPage (String target) throws WebDriverException{
+    public boolean findOnPage (WebDriver webDriver, String target) throws WebDriverException{
 
-        List<WebElement> list = driver.findElements(resultElement);
+        List<WebElement> list = webDriver.findElements(resultElement);
         for (WebElement element : list) {
             if (element.getText().equals(target) & element.isEnabled()){
                 element.click();
