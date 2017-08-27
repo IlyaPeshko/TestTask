@@ -1,9 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="FullTask" verbose="1" >
+<suite name="Task" verbose="1" >
     <test name="collected">
         <classes>
-            <class name="Test_2">
+            <class name="Case_1"/>
+            <class name="Case_2">
                 <methods>
                     <include name="singIn"/>
                     <include name="verifyPage"/>
@@ -12,6 +13,7 @@
                     <include name="singOut"/>
                 </methods>
             </class>
+            <class name="Case_3"/>
         </classes>
     </test>
 

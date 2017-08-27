@@ -1,7 +1,7 @@
 package old;
 
-import by.htp.task.ui.webDriver.Driver;
-import by.htp.task.ui.webDriver.DriverTypes;
+import by.htp.task.task_1_2_3.ui.webDriver.Driver;
+import by.htp.task.task_1_2_3.ui.webDriver.DriverTypes;
 
 import org.apache.log4j.Logger;
 import org.junit.Before;
@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeClass;
 import java.util.concurrent.TimeUnit;
 
 public abstract class BaseTest {
-    protected static WebDriver driver;
+    protected WebDriver driver;
     private static final Logger log = Logger.getLogger(BaseTest.class);
 
     @BeforeClass
@@ -32,10 +32,7 @@ public abstract class BaseTest {
 
     @AfterClass
     public void cleanUp () {
-
+        driver.quit();
     }
 
-    public static void logger (Object message){
-        log.info(message);
-    }
 }
