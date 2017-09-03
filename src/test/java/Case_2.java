@@ -1,9 +1,9 @@
-import by.htp.task.task_1_2_3.ui.page.task_2.MailPage;
-import by.htp.task.task_1_2_3.ui.page.task_2.SingInPage;
+import by.htp.task.task_1_2_3.ui.page.task_2.MailGMailPage;
+import by.htp.task.task_1_2_3.ui.page.task_2.SingInGMailPage;
 import by.htp.task.task_1_2_3.ui.page.task_2.bo.Account;
-import org.junit.Assert;
-import org.testng.annotations.Test;
 
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class Case_2 extends BaseTest {
     private static Account account = new Account("entityfortest@gmail.com", "eftversion1");
@@ -11,50 +11,35 @@ public class Case_2 extends BaseTest {
     private static final String sentURL = "https://mail.google.com/mail/#sent";
     private static final String spamURL = "https://mail.google.com/mail/#spam";
     private static final String indexURL = "http://gmail.com";
-    private MailPage mailPage;
 
     @Test()
-    public void singIn () throws InterruptedException {
-        SingInPage singInPage = new SingInPage(driver);
+    public void test () throws InterruptedException {
+        SingInGMailPage singInPage = new SingInGMailPage(driver);
         driver.get(indexURL);
-        singInPage.
+
+        MailGMailPage mailPage = singInPage.
                 putEmail(account).
                 clickNextGoToPassword().
                 putPassword(account).
-                clickNextGoToMailPage();
+                clickNext();
 
-    }
+        mailPage.getQuantityLetters("InBox");
+        Assert.assertTrue(mailPage.isCurrentUrl(inboxURL));
 
-    @Test(dependsOnMethods = "singIn")
-    public void verifyPage (){
-        mailPage = new MailPage(driver);
-        mailPage.checkQuantityLetters("InBox", driver);
-        Assert.assertTrue(mailPage.verifyPage(driver, inboxURL));
+        mailPage.clickSentLetters().
+                getQuantityLetters("Sent");
+        Assert.assertTrue(mailPage.isCurrentUrl(sentURL));
 
-        mailPage.clickSentLetters();
-        mailPage.checkQuantityLetters("Sent", driver);
-        Assert.assertTrue(mailPage.verifyPage(driver, sentURL));
+        mailPage.clickOpenAllMenu().
+                clickSpamLetters().
+                getQuantityLetters("Spam");
+        Assert.assertTrue(mailPage.isCurrentUrl(spamURL));
 
-        mailPage.clickOpenAllMenu().clickSpamLetters();
-        mailPage.checkQuantityLetters("Spam", driver);
-        Assert.assertTrue(mailPage.verifyPage(driver, spamURL));
-    }
-
-    @Test(dependsOnMethods = "verifyPage")
-    public void verifySearch () {
         Assert.assertTrue(mailPage.searchLetterByWord(driver,"text").
                 get(0).size()==2);
 
-    }
+        mailPage.sentMail(account).
+                logOut();
 
-    @Test(dependsOnMethods = "verifySearch")
-    public void sentLetter () {
-        mailPage.sentMail(account);
     }
-
-    @Test(dependsOnMethods = "sentLetter")
-    public void singOut () {
-        mailPage.logOut(driver);
-    }
-
 }

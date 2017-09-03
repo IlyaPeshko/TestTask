@@ -1,54 +1,50 @@
-2017-08-28 00:01:01 INFO  Utility:20 - class Case_1 initialization
-2017-08-28 00:01:07 INFO  Utility:20 - searching: automated testing
-2017-08-28 00:01:08 INFO  Utility:20 - =>
-2017-08-28 00:01:12 INFO  Utility:20 - founded: 15
-2017-08-28 00:01:12 INFO  Utility:20 - searching on page: Minsk Automated Testing Community / false
-2017-08-28 00:01:12 INFO  Utility:20 - class Case_2 initialization
-2017-08-28 00:01:20 INFO  Utility:20 - InBox : 42
-2017-08-28 00:01:25 INFO  Utility:20 - comparing: https://mail.google.com/mail/#inbox AND https://mail.google.com/mail/#inbox
-2017-08-28 00:01:25 INFO  Utility:20 - result: true
-2017-08-28 00:01:25 INFO  Utility:20 - Sent : 42
-2017-08-28 00:01:26 INFO  Utility:20 - comparing: https://mail.google.com/mail/#sent AND https://mail.google.com/mail/#sent
-2017-08-28 00:01:26 INFO  Utility:20 - result: true
-2017-08-28 00:01:26 INFO  Utility:20 - Spam : 83
-2017-08-28 00:01:26 INFO  Utility:20 - comparing: https://mail.google.com/mail/#spam AND https://mail.google.com/mail/#spam
-2017-08-28 00:01:26 INFO  Utility:20 - result: true
-2017-08-28 00:01:26 INFO  Utility:20 - try find letter with 'text'
-2017-08-28 00:01:29 INFO  Utility:20 - found: 2
-2017-08-28 00:01:29 INFO  Utility:20 - sent mail to entityfortest@gmail.com
-2017-08-28 00:01:33 INFO  Utility:20 - logOut
-2017-08-28 00:01:33 INFO  Utility:20 - class Case_3 initialization
-2017-08-28 00:01:40 INFO  Utility:20 - close pop up: select region
-2017-08-28 00:02:40 INFO  Utility:20 - pop up didn't appear 
-2017-08-28 00:02:40 INFO  Utility:20 - Combination{from='JFK', to='SVO', departDate='11092017', returnDate='11142017'}
-2017-08-28 00:02:43 INFO  Utility:20 - select first ticket
-2017-08-28 00:02:51 INFO  Utility:20 - first ticket is selected
-2017-08-28 00:02:51 INFO  Utility:20 - waiting...
-2017-08-28 00:02:55 INFO  Utility:20 - select second ticket
-2017-08-28 00:02:56 INFO  Utility:20 - second ticket is selected
-2017-08-28 00:03:02 INFO  Utility:20 - price: [542.6, 135.58, 678.18]
-2017-08-28 00:03:07 INFO  Utility:20 - putPassengerName: Passenger{firstName='Ivan', lastName='Ivanov', phone='291231212', email='entityfortest@gmail.com'}
-2017-08-28 00:03:09 INFO  Utility:20 - putPassengerBirth
-2017-08-28 00:03:12 INFO  Utility:20 - putPassengerContactInformation
-2017-08-28 00:03:23 INFO  Utility:20 - Purchase button isEnabled: true
-2017-08-28 00:04:22 INFO  Utility:12 - task 4
-2017-08-28 00:04:22 INFO  Utility:12 - FTPAddress{frtAddress='ftp.stat.duke.edu', port=21, user='anonymous', password='anonymous'}
-2017-08-28 00:04:23 INFO  Utility:12 - 220 Welcome to Dept. of Statistical Science public FTP service.
-2017-08-28 00:04:23 INFO  Utility:12 - 331 Please specify the password.
-2017-08-28 00:04:23 INFO  Utility:12 - 230 Login successful.
-2017-08-28 00:04:23 INFO  Utility:12 - fetch list
-2017-08-28 00:04:24 INFO  Utility:12 - 227 Entering Passive Mode (152,3,7,25,163,40).
-2017-08-28 00:04:24 INFO  Utility:12 - IP: 152.3.7.25 Port: 41768
-2017-08-28 00:04:24 INFO  Utility:12 - catalog: [pub]
-2017-08-28 00:04:24 INFO  Utility:12 - 
-2017-08-28 00:04:24 INFO  Utility:12 - task 4
-2017-08-28 00:04:24 INFO  Utility:12 - FTPAddress{frtAddress='ftp.stat.duke.edu', port=21, user='anonymous', password='anonymous'}
-2017-08-28 00:04:24 INFO  Utility:12 - 220 Welcome to Dept. of Statistical Science public FTP service.
-2017-08-28 00:04:24 INFO  Utility:12 - 331 Please specify the password.
-2017-08-28 00:04:24 INFO  Utility:12 - 230 Login successful.
-2017-08-28 00:04:25 INFO  Utility:12 - current dir: 250 Directory successfully changed.
-2017-08-28 00:04:25 INFO  Utility:12 - 257 "/pub"
-2017-08-28 00:04:25 INFO  Utility:12 - create: 550 Permission denied.
-2017-08-28 00:04:25 INFO  Utility:12 - current dir: 250 Directory successfully changed.
-2017-08-28 00:04:25 INFO  Utility:12 - 257 "/"
-2017-08-28 00:04:25 INFO  Utility:12 - 221 Goodbye.
+2017-09-03 22:02:03 INFO  [<init>]: IndexTutByPage
+2017-09-03 22:02:10 INFO  [putRequest]: automated testing
+2017-09-03 22:02:21 INFO  [<init>]: SearchTutByPage
+2017-09-03 22:02:22 INFO  [checkException]: founded: 15
+2017-09-03 22:02:22 INFO  [checkException]: searching on page: Minsk Automated Testing Community: false
+2017-09-03 22:02:23 INFO  [<init>]: SingInGMailPage
+2017-09-03 22:02:26 INFO  [<init>]: MailGMailPage
+2017-09-03 22:02:31 INFO  [getQuantityLetters]: InBox: 6
+2017-09-03 22:02:36 INFO  [isCurrentUrl]: true
+2017-09-03 22:02:37 INFO  [getQuantityLetters]: Sent: 6
+2017-09-03 22:02:37 INFO  [isCurrentUrl]: true
+2017-09-03 22:02:37 INFO  [getQuantityLetters]: Spam: 11
+2017-09-03 22:02:39 INFO  [isCurrentUrl]: true
+2017-09-03 22:02:41 INFO  [searchLetterByWord]: text / found: 2
+2017-09-03 22:02:41 INFO  [sentMail]: to: entityfortest@gmail.com
+2017-09-03 22:02:45 INFO  [logOut]: 
+2017-09-03 22:02:46 INFO  [<init>]: HomeDeltaPage
+2017-09-03 22:03:54 ERROR [closePopUp]: didn't appear
+2017-09-03 22:03:54 INFO  [putCombination]: Combination{from='JFK', to='SVO', departDate='11092017', returnDate='11142017'}
+2017-09-03 22:04:02 INFO  [<init>]: TicketsDeltaPage
+2017-09-03 22:04:02 INFO  [selectTickets]: first...
+2017-09-03 22:04:14 INFO  [selectTickets]: second...
+2017-09-03 22:04:25 INFO  [<init>]: PassengerInfoDeltaPage
+2017-09-03 22:04:25 INFO  [putPassengerName]: Passenger{firstName='Ivan', lastName='Ivanov', phone='291231212', email='entityfortest@gmail.com'}
+2017-09-03 22:04:27 INFO  [putPassengerBirth]: Male 4 February 1989
+2017-09-03 22:04:39 INFO  [<init>]: CreditCardDeltaPage
+2017-09-03 22:04:39 INFO  [isPurchaseButtonEnabled]: true
+2017-09-03 22:04:50 INFO  [connect]: FTPAddress{frtAddress='ftp.des.tstu.ru', port=21, user='anonymous', password='anonymous'}
+2017-09-03 22:04:50 INFO  [connect]: 220 FTP Server of Department of Internet-technologies of Distance Education Development.
+2017-09-03 22:04:50 INFO  [connect]: 331 Please specify the password.
+2017-09-03 22:04:50 INFO  [connect]: 230 Login successful.
+2017-09-03 22:04:50 INFO  [setPASV]: 227 Entering Passive Mode (82,179,144,249,231,154).
+2017-09-03 22:04:50 INFO  [setPASV]: IP: 82.179.144.249 Port: 59290
+2017-09-03 22:04:51 INFO  [getCatalogDir]: [etc, incoming, microsoft, pub]
+2017-09-03 22:04:51 INFO  [close]: 
+2017-09-03 22:04:51 INFO  [connect]: FTPAddress{frtAddress='ftp.des.tstu.ru', port=21, user='anonymous', password='anonymous'}
+2017-09-03 22:04:51 INFO  [connect]: 220 FTP Server of Department of Internet-technologies of Distance Education Development.
+2017-09-03 22:04:51 INFO  [connect]: 331 Please specify the password.
+2017-09-03 22:04:51 INFO  [connect]: 230 Login successful.
+2017-09-03 22:04:51 INFO  [goToDir]: '/etc'  : 250 Directory successfully changed.
+2017-09-03 22:04:51 INFO  [createDir]: 550 Permission denied.
+2017-09-03 22:04:51 INFO  [goToDir]: '/incoming'  : 250 Directory successfully changed.
+2017-09-03 22:04:51 INFO  [createDir]: 550 Permission denied.
+2017-09-03 22:04:51 INFO  [goToDir]: '/microsoft'  : 250 Directory successfully changed.
+2017-09-03 22:04:51 INFO  [createDir]: 550 Permission denied.
+2017-09-03 22:04:51 INFO  [goToDir]: '/pub'  : 250 Directory successfully changed.
+2017-09-03 22:04:51 INFO  [initWebClient]: http://edition.cnn.com/
+2017-09-03 22:04:51 INFO  [createDir]: 550 Permission denied.
+2017-09-03 22:04:51 INFO  [close]: 221 Goodbye.
+

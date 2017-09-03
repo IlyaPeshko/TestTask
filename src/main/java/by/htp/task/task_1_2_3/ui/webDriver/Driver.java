@@ -1,12 +1,11 @@
 package by.htp.task.task_1_2_3.ui.webDriver;
 
-import by.htp.task.task_1_2_3.utility.exception.UnknownDriverTypeExeption;
-import by.htp.task.task_1_2_3.utility.Permanent;
+import by.htp.task.task_1_2_3.ui.webDriver.exception.UnknownDriverTypeException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
@@ -15,17 +14,16 @@ public class Driver {
     private static final String drFF = "webdriver.gecko.driver";
     private static final String pFF = Permanent.FIREFOX_DRIVER_PATH;
     private static final String drGC = "webdriver.chrome.driver";
-    private static final String pGC = Permanent.CHROME_DRIVER_PATH;
-
-    private static final String DEFAULT_WEB_DRIVER = "DEFAULT_WEB_DRIVER";
-    private static DriverTypes defaultDriverTypes = DriverTypes.FIREFOX;
+    private static final String pGC_MAC64 = Permanent.CHROME_DRIVER_MAC64_PATH;
+    private static final String pGC_WIN32 = Permanent.CHROME_DRIVER_WIN32_PATH;
+    private static Date name = new Date();
 
     private static HashMap<String, WebDriver> instances;
     static {
         instances = new HashMap<String, WebDriver>();
     }
 
-    public static WebDriver getWebDriverInstance(String name, DriverTypes driverTypes) {
+    public static WebDriver getWebDriverInstance(DriverTypes driverTypes) {
         WebDriver driver;
 
         if (!instances.containsKey(name)) {
@@ -34,16 +32,22 @@ public class Driver {
                     System.setProperty(drFF,pFF);
                     driver = new FirefoxDriver();
                     break;
-                case GC:
-                    System.setProperty(drGC, pGC);
+                case GC_MAC64:
+                    System.setProperty(drGC, pGC_MAC64);
+                    driver = new ChromeDriver();
+                    break;
+                case GC_WIN32:
+                    System.setProperty(drGC, pGC_WIN32);
                     driver = new ChromeDriver();
                     break;
                 default:
-                    throw new UnknownDriverTypeExeption("Unknown by.htp.task.task_1_2_3.utility.exception.UnknownDriverTypeExeption" + driverTypes.getDriverName());
+                    throw new UnknownDriverTypeException("UnknownDriverTypeException" + driverTypes.getDriverName());
             }
 
-            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-            instances.put(name, driver);
+            driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
+            instances.put(name.toString(), driver);
 
         }else {
             driver = instances.get(name);
@@ -51,8 +55,5 @@ public class Driver {
         return driver;
     }
 
-    public static WebDriver getWebDriverInstance() {
-        return getWebDriverInstance(DEFAULT_WEB_DRIVER, defaultDriverTypes);
-    }
 
 }

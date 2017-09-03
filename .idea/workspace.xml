@@ -2,8 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8866d215-1332-45e8-aab1-bd2850d7b4e2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/TutBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/GMail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/Delta.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/Permanent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/arch/log4j.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/Utility.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/utility/Permanent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/FilesApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/CNN results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/arch/log_file.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/log_file.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/old/BaseTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/arch/log_file.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/Utility.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_1/SearchPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_2/MailPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_2/SingInPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_3/CreditCardPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_3/HomePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_3/PassengerInfoPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_3/TicketsPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/utility/Permanent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/utility/exception/ScreenshotException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/utility/exception/UnknownDriverTypeExeption.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_5/FilesApp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/chromedriver" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/drivers/chromedriver" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/drivers/chromedriver.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/old/BaseTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_5_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_5_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/SearchPage.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/SearchTutByPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/MailPage.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/MailGMailPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/SingInPage.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/SingInGMailPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/CreditCardPage.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/CreditCardDeltaPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/HomeDeltaPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/PassengerInfoPage.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/PassengerInfoDeltaPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/TicketsPage.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/TicketsDeltaPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/utility/exception/ScreenshotException.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/exception/ScreenshotException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/utility/exception/UnknownDriverTypeExeption.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/exception/UnknownDriverTypeException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/chromedriver" afterPath="$PROJECT_DIR$/src/main/resources/chromedriverMac64" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" afterPath="$PROJECT_DIR$/src/main/resources/chromedriverWin32" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/Page.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/Page.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/Utility.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/Utility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/UtilityImpl.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/UtilityImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_1/IndexTutByPage.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_1/IndexTutByPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_2/bo/Account.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_2/bo/Account.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/webDriver/Driver$1.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/webDriver/Driver$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/webDriver/Driver.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/webDriver/Driver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_4/FTPAddress.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_4/FTPAddress.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_4/FTPClient.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_4/FTPClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_4/MainFTP.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_4/MainFTP.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_5/CNN.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_5/CNN.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Case_1.class" afterPath="$PROJECT_DIR$/target/test-classes/Case_1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Case_2.class" afterPath="$PROJECT_DIR$/target/test-classes/Case_2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Case_3.class" afterPath="$PROJECT_DIR$/target/test-classes/Case_3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestTask.iml" afterPath="$PROJECT_DIR$/TestTask.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Page.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Utility.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Utility.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/UtilityImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/UtilityImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/IndexTutByPage.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/IndexTutByPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/bo/Account.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/bo/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/Driver.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/Driver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPAddress.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPAddress.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPClient.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/MainFTP.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/MainFTP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNN.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arch/CNN results.txt" afterPath="$PROJECT_DIR$/src/main/resources/arch/CNN results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case_1.java" afterPath="$PROJECT_DIR$/src/test/java/Case_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case_2.java" afterPath="$PROJECT_DIR$/src/test/java/Case_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case_3.java" afterPath="$PROJECT_DIR$/src/test/java/Case_3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/arch/CNN results.txt" afterPath="$PROJECT_DIR$/target/classes/arch/CNN results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log_file.log" afterPath="$PROJECT_DIR$/target/classes/log_file.log" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,7 +105,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,16 +127,18 @@
       <find>searchLetterByWord</find>
       <find>fieldSearch</find>
       <find>EElement</find>
-      <find>log</find>
       <find>logger.info</find>
-      <find>logger</find>
       <find>log.info</find>
       <find>task 4</find>
       <find>task 5</find>
+      <find>log</find>
+      <find>continueButtonElement</find>
+      <find>logger</find>
     </findStrings>
     <replaceStrings>
       <replace>message</replace>
       <replace>logger</replace>
+      <replace>log.info</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -79,57 +161,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_1/IndexTutByPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_1/SearchPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/Utility.java" />
-        <option value="$PROJECT_DIR$/src/test/java/old/task_2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test_1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test_2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_2/SingInPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_2/MailPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/old/task_3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_3/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_3/CreditCardPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_3/TicketsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/UtilityImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_3/PassengerInfoPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/Page.java" />
-        <option value="$PROJECT_DIR$/src/test/java/old/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/utility/Permanent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/Utility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/TicketsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/PassengerInfoPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/CreditCardPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/MailPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/SingInPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/Elements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Utility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/utility/exception/UnknownDriverTypeExeption.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/utility/exception/UnknownDriverTypeException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/Permanent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Case_3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/CreditCardDeltaPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/PassengerInfoDeltaPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/old/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Case_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/FindOnPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/JSoupFind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task5_1/JSoupFind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task5_1/staff/JSoupFind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task5_1/staff/FindBy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/FindBy.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/FilesApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/UtilityImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/HomeDeltaPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/IndexTutByPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Case_1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/SearchPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/SingInPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/MailPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/CreditCardPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/TicketsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/bo/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/MailGMailPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/SearchTutByPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/TutBy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/SingInGMailPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/Delta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/TicketsDeltaPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/MainFTP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/Utility.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPClient.java" />
-        <option value="$PROJECT_DIR$/src/test/java/old/task_4.java" />
-        <option value="$PROJECT_DIR$/src/test/java/task_4.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Case_4.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Case_2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Utility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/NewCNN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/GMail.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/arch/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/UtilityImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/PassengerInfoPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/utility/Permanent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/Driver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Case_3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNNSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/xStaff/CNN.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNN.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/htp/task/Utility.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log_file.log" />
-        <option value="$PROJECT_DIR$/src/main/resources/CNN results.txt" />
       </list>
     </option>
   </component>
@@ -156,6 +238,170 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization &gt; Bidirectional Text</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>ArquillianJava</id>
+          </State>
+          <State>
+            <id>Bean Validation issues</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>FlexUnit inspections</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Memory issuesJava</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
@@ -175,7 +421,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,6 +449,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -219,27 +475,140 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTaskElilink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTaskElilink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="by" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTaskElilink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTaskElilink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="by" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task_4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTaskElilink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTaskElilink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="by" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="FullScreen" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/arch" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/atch" />
     </key>
@@ -247,11 +616,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/arch" />
       <recent name="$PROJECT_DIR$/src/main/resources/drivers" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/by/htp/task/xStaff" />
       <recent name="$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_4/staff" />
-      <recent name="$PROJECT_DIR$/src/main/java/by/htp/task/utility" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="by.htp.task.ui.page" />
@@ -266,27 +635,7 @@
       <recent name="by.htp.task.ui.page.task_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CNN (1)">
-    <configuration default="false" name="MainFTP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="by.htp.task.task_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="by.htp.task.task_4.MainFTP" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TestTask" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="false" name="/Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="TestTask" />
@@ -315,47 +664,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CNNSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="by.htp.task.task_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="by.htp.task.task_5.CNNSearch" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TestTask" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="CNN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="by.htp.task.xStaff.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="by.htp.task.xStaff.CNN" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TestTask" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="CNN (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="by.htp.task.task_5.*" />
@@ -373,6 +682,82 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="TestTask" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainFTP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.htp.task.task_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="by.htp.task.task_4.MainFTP" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestTask" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Case_1.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="TestTask" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Case_1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="Case_2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="TestTask" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Case_2" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -756,19 +1141,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MainFTP" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG./Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CNNSearch" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CNN" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CNN (1)" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG./Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CNN" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MainFTP" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.Case_1.test" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.Case_2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CNN (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CNN" />
         <item index="1" class="java.lang.String" itemvalue="Application.MainFTP" />
         <item index="2" class="java.lang.String" itemvalue="TestNG./Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CNN" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CNNSearch" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.Case_2" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.Case_1.test" />
       </list>
     </recent_temporary>
   </component>
@@ -833,7 +1218,16 @@
       <workItem from="1503836557198" duration="1989000" />
       <workItem from="1503840001044" duration="358000" />
       <workItem from="1503849277946" duration="15359000" />
-      <workItem from="1503871976532" duration="451000" />
+      <workItem from="1503871976532" duration="711000" />
+      <workItem from="1503909632164" duration="249000" />
+      <workItem from="1503913993924" duration="494000" />
+      <workItem from="1504085264033" duration="3137000" />
+      <workItem from="1504090954105" duration="13301000" />
+      <workItem from="1504186475727" duration="3064000" />
+      <workItem from="1504196315095" duration="1584000" />
+      <workItem from="1504282487831" duration="11426000" />
+      <workItem from="1504344740707" duration="7819000" />
+      <workItem from="1504462372465" duration="3307000" />
     </task>
     <task id="LOCAL-00001">
       <created>1503619639657</created>
@@ -846,39 +1240,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Case_1 - 2017.08.27 at 22h 18m 22s.xml">
-      <configuration name="Case_1" configurationId="TestNG" />
+    <history-entry file="Case_1_test - 2017.09.03 at 21h 18m 31s.xml">
+      <configuration name="Case_1.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Case_1 - 2017.08.27 at 22h 28m 18s.xml">
-      <configuration name="Case_1" configurationId="TestNG" />
+    <history-entry file="Case_1_test - 2017.09.03 at 21h 23m 40s.xml">
+      <configuration name="Case_1.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Case_3 - 2017.08.27 at 21h 55m 28s.xml">
-      <configuration name="Case_3" configurationId="TestNG" />
+    <history-entry file="Case_1_test - 2017.09.03 at 21h 24m 24s.xml">
+      <configuration name="Case_1.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Case_3 - 2017.08.27 at 21h 57m 30s.xml">
-      <configuration name="Case_3" configurationId="TestNG" />
+    <history-entry file="Case_1_test - 2017.09.03 at 21h 25m 32s.xml">
+      <configuration name="Case_1.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_user_IdeaProjects_idAcademy_TestTaskElilink_src_main_resources_test_xml - 2017.08.27 at 22h 03m 57s.xml">
+    <history-entry file="Case_2 - 2017.09.03 at 21h 54m 10s.xml">
+      <configuration name="Case_2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Case_2 - 2017.09.03 at 21h 55m 46s.xml">
+      <configuration name="Case_2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Case_2 - 2017.09.03 at 21h 57m 15s.xml">
+      <configuration name="Case_2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Case_2 - 2017.09.03 at 22h 01m 48s.xml">
+      <configuration name="Case_2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_user_IdeaProjects_idAcademy_TestTaskElilink_src_main_resources_test_xml - 2017.09.03 at 21h 53m 51s.xml">
       <configuration name="/Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_user_IdeaProjects_idAcademy_TestTaskElilink_src_main_resources_test_xml - 2017.08.27 at 22h 11m 46s.xml">
-      <configuration name="/Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_user_IdeaProjects_idAcademy_TestTaskElilink_src_main_resources_test_xml - 2017.08.27 at 22h 40m 35s.xml">
-      <configuration name="/Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_user_IdeaProjects_idAcademy_TestTaskElilink_src_main_resources_test_xml - 2017.08.27 at 23h 21m 41s.xml">
-      <configuration name="/Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_user_IdeaProjects_idAcademy_TestTaskElilink_src_main_resources_test_xml - 2017.08.28 at 00h 00m 46s.xml">
-      <configuration name="/Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_user_IdeaProjects_idAcademy_TestTaskElilink_src_main_resources_test_xml - 2017.08.28 at 00h 03m 23s.xml">
+    <history-entry file="_Users_user_IdeaProjects_idAcademy_TestTaskElilink_src_main_resources_test_xml - 2017.09.03 at 22h 04m 40s.xml">
       <configuration name="/Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289038000" />
+    <option name="totallyTimeSpent" value="333679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -887,6 +1281,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -898,7 +1293,7 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2653791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35121602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -910,7 +1305,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -962,7 +1356,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -971,41 +1365,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.5.2/selenium-support-3.5.2.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/old/task_2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_1/IndexTutBy.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_1/Page.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/ui/page/task_2/Page.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/xStaff/Launcher.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.3.1/selenium-api-3.3.1.jar!/org/openqa/selenium/WebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.3.1/selenium-api-3.3.1.jar!/org/openqa/selenium/SearchContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/old/task_3.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/bo/Combination.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1017,13 +1376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/old/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1055,217 +1407,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_5/FilesApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-          <folding>
-            <marker date="1503762628000" expanded="true" signature="7:33" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Case_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/MailPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/IndexTutByPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/TicketsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/CreditCardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/SingInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Case_4.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="154" column="11" lean-forward="false" selection-start-line="154" selection-start-column="11" selection-end-line="154" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Case_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="method#singIn#0;class#Case_2#0" expanded="false" />
-            <element signature="method#verifyPage#0;class#Case_2#0" expanded="false" />
-            <element signature="method#verifySearch#0;class#Case_2#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/PassengerInfoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/UtilityImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNNSearch.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Case_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/utility/Permanent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/xStaff/CNN.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log_file.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102216">
-          <caret line="1836" column="71" lean-forward="false" selection-start-line="1836" selection-start-column="71" selection-end-line="1836" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/test.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#main#0;class#CNN#0" expanded="false" />
-            <element signature="method#initWebClient#0;class#CNN#0" expanded="false" />
-            <element signature="method#count#0;class#CNN#0" expanded="false" />
-            <element signature="method#catalog#0;class#CNN#0" expanded="false" />
-            <element signature="method#waitJS#0;class#CNN#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_4/MainFTP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="62" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -1277,17 +1425,336 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/CNN results.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/arch/CNN results.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4026">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/exception/UnknownDriverTypeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/Utility.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/Permanent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/old/BaseTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/CreditCardDeltaPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#203#204#0" expanded="false" />
+            <element signature="e#232#233#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task5_1/staff/JSoupFind.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task5_1/staff/FindOnPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_5/FilesApp.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.27/htmlunit-2.27.jar!/com/gargoylesoftware/htmlunit/html/DomNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="937" column="12" lean-forward="true" selection-start-line="937" selection-start-column="12" selection-end-line="937" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="80" lean-forward="false" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
+          <folding>
+            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#329#330#0" expanded="false" />
+            <element signature="e#403#404#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="387" column="18" lean-forward="false" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Case_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/IndexTutByPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Case_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/SearchTutByPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_1/TutBy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/bo/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#321#322#0" expanded="false" />
+            <element signature="e#349#350#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/SingInGMailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="method#putEmail#0;class#SingInGMailPage#0" expanded="false" />
+            <element signature="method#clickNextGoToPassword#0;class#SingInGMailPage#0" expanded="false" />
+            <element signature="method#putPassword#0;class#SingInGMailPage#0" expanded="false" />
+            <element signature="method#clickNext#0;class#SingInGMailPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/HomeDeltaPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="method#putCombination#0;class#HomeDeltaPage#0" expanded="false" />
+            <element signature="method#clickFindButton#0;class#HomeDeltaPage#0" expanded="false" />
+            <element signature="method#closePopUp#0;class#HomeDeltaPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/PassengerInfoDeltaPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#putPassengerName#0;class#PassengerInfoDeltaPage#0" expanded="false" />
+            <element signature="method#putPassengerBirth#0;class#PassengerInfoDeltaPage#0" expanded="false" />
+            <element signature="method#putPassengerContactInformation#0;class#PassengerInfoDeltaPage#0" expanded="false" />
+            <element signature="method#clickContinueButton#0;class#PassengerInfoDeltaPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/UtilityImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/TicketsDeltaPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#clickContinueButton#0;class#TicketsDeltaPage#0" expanded="false" />
+            <element signature="method#isTicketsSum#0;class#TicketsDeltaPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/Delta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_4/MainFTP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="method#connect#0;class#FTPClient#0" expanded="false" />
+            <element signature="method#getCatalogDir#0;class#FTPClient#0" expanded="false" />
+            <element signature="method#goToDir#0;class#FTPClient#0" expanded="false" />
+            <element signature="method#createDir#0;class#FTPClient#0" expanded="false" />
+            <element signature="method#deleteDir#0;class#FTPClient#0" expanded="false" />
+            <element signature="method#close#0;class#FTPClient#0" expanded="false" />
+            <element signature="method#setPASV#0;class#FTPClient#0" expanded="false" />
+            <element signature="method#sendLine#0;class#FTPClient#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initWebClient#0;class#CNN#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="62" lean-forward="false" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Case_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/MailGMailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="method#searchLetterByWord#0;class#MailGMailPage#0" expanded="false" />
+            <element signature="method#logOut#0;class#MailGMailPage#0" expanded="false" />
+            <element signature="method#clickSentLetters#0;class#MailGMailPage#0" expanded="false" />
+            <element signature="method#clickSpamLetters#0;class#MailGMailPage#0" expanded="false" />
+            <element signature="method#clickOpenAllMenu#0;class#MailGMailPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/GMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="58" lean-forward="false" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/arch/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="74" lean-forward="false" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log_file.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="49" column="66" lean-forward="true" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="315">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1349,7 +1816,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

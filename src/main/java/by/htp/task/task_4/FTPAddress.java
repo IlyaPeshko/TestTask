@@ -1,8 +1,5 @@
 package by.htp.task.task_4;
 
-/**
- * Created by user on 15.08.17.
- */
 public class FTPAddress {
     private String frtAddress;
     private int port;
