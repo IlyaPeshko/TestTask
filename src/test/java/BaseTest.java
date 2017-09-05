@@ -10,8 +10,7 @@ public class BaseTest {
 
     @BeforeClass
     public void init (){
-        //driver = Driver.getWebDriverInstance(DriverTypes.GC_WIN32);
-        driver = Driver.getWebDriverInstance(DriverTypes.GC_MAC64);
+        driver = Driver.getWebDriverInstance(DriverTypes.GC_WIN32);
     }
 
     @AfterClass
