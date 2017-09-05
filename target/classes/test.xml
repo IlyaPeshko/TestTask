@@ -4,15 +4,7 @@
     <test name="collected">
         <classes>
             <class name="Case_1"/>
-            <class name="Case_2">
-                <methods>
-                    <include name="singIn"/>
-                    <include name="verifyPage"/>
-                    <include name="verifySearch"/>
-                    <include name="sentLetter"/>
-                    <include name="singOut"/>
-                </methods>
-            </class>
+            <class name="Case_2"/>
             <class name="Case_3"/>
         </classes>
     </test>

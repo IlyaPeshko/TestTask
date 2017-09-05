@@ -5,26 +5,28 @@ import java.util.List;
 
 public class MainFTP {
 
-    private static FTPAddress address = new FTPAddress("ftp.des.tstu.ru",21, "anonymous", "anonymous");
+    private static FTPAddress address = new FTPAddress("ftp.byfly.by",21, "anonymous", "anonymous");
+    private static FTPClient ftpClient = new FTPClient();
+    private static List catalogDir;
 
     public static void main(String[] args) throws IOException {
-
-        FTPClient ftpClient = new FTPClient();
-        FTPClient ftpClient2 = new FTPClient();
-
         ftpClient.connect(address);
-        List list = ftpClient.getCatalogDir();
+        catalogDir = ftpClient.getCatalogDir();
+        goToDirs();
+        createDir();
         ftpClient.close();
 
-        ftpClient2.connect(address);
-        for (Object o : list) {
-            ftpClient2.goToDir("/" + o.toString().trim());
+    }
 
-            if (ftpClient2.createDir("forTest"))
-                ftpClient2.deleteDir("forTest");
-
+    private static void goToDirs() throws IOException {
+        for (Object o : catalogDir) {
+            ftpClient.goToDir(o.toString());
+            ftpClient.goToDir("");
         }
-        ftpClient2.close();
+    }
 
+    private static void createDir () throws IOException {
+        if (ftpClient.isCreateDir("forTest"))
+            ftpClient.deleteDir("forTest");
     }
 }

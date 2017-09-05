@@ -9,10 +9,10 @@ public class CreditCardDeltaPage extends PassengerInfoDeltaPage {
     }
 
     public boolean isPurchaseButtonEnabled() throws InterruptedException {
-        boolean result = purchaseButtonElement.isEnabled();
-        log.info(result);
+        boolean isButtonEnabled = purchaseButtonElement.isEnabled();
+        log.info(isButtonEnabled);
 
-        return result;
+        return isButtonEnabled;
 
     }
 }

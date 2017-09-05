@@ -44,9 +44,9 @@ public class CNN {
         return webClient;
     }
 
-    private static void waitJS (WebClient webClient, int wait) {
+    private static void waitJS (WebClient webClient, int waitTime) {
         log.info("");
-        webClient.waitForBackgroundJavaScriptStartingBefore(wait);
-        webClient.waitForBackgroundJavaScript(wait);
+        webClient.waitForBackgroundJavaScriptStartingBefore(waitTime);
+        webClient.waitForBackgroundJavaScript(waitTime);
     }
 }

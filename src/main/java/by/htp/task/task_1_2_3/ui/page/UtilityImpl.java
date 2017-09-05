@@ -15,10 +15,11 @@ public class UtilityImpl implements Utility{
     }
 
     public void waitElement (WebDriver driver, By by){
+        //log.debug("waiting...");
         log.debug("waiting...");
-        WebDriverWait driverWait = new WebDriverWait(driver, 90);
+        WebDriverWait driverWait = new WebDriverWait(driver, 90, 1000);
         driverWait.until(ExpectedConditions.or(
-                ExpectedConditions.presenceOfElementLocated(by)));
+                ExpectedConditions.elementToBeClickable(by)));
 
 
     }

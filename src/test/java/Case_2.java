@@ -35,7 +35,7 @@ public class Case_2 extends BaseTest {
                 getQuantityLetters("Spam");
         Assert.assertTrue(mailPage.isCurrentUrl(spamURL));
 
-        Assert.assertTrue(mailPage.searchLetterByWord(driver,"text").
+        Assert.assertTrue(mailPage.getCollectionByWord(driver,"text").
                 get(0).size()==2);
 
         mailPage.sentMail(account).

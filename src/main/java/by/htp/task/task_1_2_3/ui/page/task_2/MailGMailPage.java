@@ -8,7 +8,7 @@ import java.util.List;
 
 public class MailGMailPage extends SingInGMailPage {
 
-    protected static boolean result;
+    protected static boolean isResult;
     protected static String driverUrl;
 
     public MailGMailPage(WebDriver driver) {
@@ -25,13 +25,13 @@ public class MailGMailPage extends SingInGMailPage {
 
     public boolean isCurrentUrl(String currentUrl){
         driverUrl = driver.getCurrentUrl().toString();
-        result = driverUrl.equals(currentUrl);
-        log.info(result);
+        isResult = driverUrl.equals(currentUrl);
+        log.info(isResult);
 
-        return result;
+        return isResult;
     }
 
-    public List<List<String>> searchLetterByWord(WebDriver driver, String searchWord) {
+    public List<List<String>> getCollectionByWord(WebDriver driver, String searchWord) {
         searchElement.clear();
         searchElement.sendKeys("label:inbox "+searchWord + ENTER);
         driver.navigate().refresh();

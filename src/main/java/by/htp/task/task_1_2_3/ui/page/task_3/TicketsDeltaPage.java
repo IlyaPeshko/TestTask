@@ -1,8 +1,6 @@
 package by.htp.task.task_1_2_3.ui.page.task_3;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,9 +15,15 @@ public class TicketsDeltaPage extends HomeDeltaPage {
         log.info("first...");
         firstTicketElement.click();
 
-        waitElement(driver, waitSecondTicketElement);
-        log.info("second...");
-        secondTiсketElement.click();
+        try {
+            waitElement(driver, waitSecondTicketElement);
+            log.info("second...");
+            secondTiсketElement.click();
+        }catch (WebDriverException e){
+            log.error(e);
+            waitElement(driver, waitSecondTicketElement);
+            secondTiсketElement.click();
+        }
 
         if (!isTicketsSum())
             log.warn("Total and sum of tickets is different");

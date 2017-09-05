@@ -7,9 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-/**
- * Created by user on 31.08.17.
- */
 public class Delta extends Page {
 
     //HomeDeltaPage
@@ -35,7 +32,7 @@ public class Delta extends Page {
     WebElement continueButtonElement;
     @FindBy(how = How.XPATH, xpath = ".//*[@id='tripPriceTotals']/div/div/div[2]/span[3]")
     WebElement centTotalPriceElement;
-    protected static final By waitSecondTicketElement = By.xpath(".//*[@class='topHeaderWrapper tripRowContainer']/div/div/table/tbody/tr");
+    public static final By waitSecondTicketElement = By.xpath(".//*[@id='fareRowContainer_1']/tbody/tr[2]/td[2]");
 
     //TicketsDeltaPage
     //putPassengerName / Mr. Ivan Ivanov
