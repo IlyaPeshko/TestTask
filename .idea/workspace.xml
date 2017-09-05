@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8866d215-1332-45e8-aab1-bd2850d7b4e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Circle.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/log_file.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log_file.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/UtilityImpl.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/UtilityImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_3/Delta.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_3/Delta.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_3/TicketsDeltaPage.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/task_3/TicketsDeltaPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_4/FTPClient.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_4/FTPClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_4/MainFTP.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_4/MainFTP.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/arch/CNN results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/arch/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Circle.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/UtilityImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/UtilityImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/MailGMailPage.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/MailGMailPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/CreditCardDeltaPage.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/CreditCardDeltaPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/Delta.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/Delta.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/TicketsDeltaPage.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/TicketsDeltaPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPClient.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/MainFTP.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/MainFTP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNN.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNN.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test.xml" afterPath="$PROJECT_DIR$/src/main/resources/test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log_file.log" afterPath="$PROJECT_DIR$/src/main/resources/log_file.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case_2.java" afterPath="$PROJECT_DIR$/src/test/java/Case_2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test.xml" afterPath="$PROJECT_DIR$/target/classes/test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log_file.log" afterPath="$PROJECT_DIR$/target/classes/log_file.log" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,10 +35,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FTPClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FTPClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="615">
               <caret line="163" column="23" lean-forward="false" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,11 +55,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CNN.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNN.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+              <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
               <folding>
                 <element signature="method#initWebClient#0;class#CNN#0" expanded="false" />
                 <element signature="method#waitJS#0;class#CNN#0" expanded="false" />
@@ -85,7 +85,7 @@
       <file leaf-file-name="log_file.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log_file.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
+            <state relative-caret-position="480">
               <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
@@ -97,6 +97,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Case_3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Case_3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -168,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/utility/exception/UnknownDriverTypeExeption.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/utility/exception/UnknownDriverTypeException.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/Permanent.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Case_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/PassengerInfoDeltaPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/old/BaseTest.java" />
@@ -194,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/arch/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CircleTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Circle.java" />
@@ -209,6 +217,8 @@
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_2/MailGMailPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/task_3/CreditCardDeltaPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Case_3.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -418,7 +428,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -486,32 +497,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestTaskElilink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestTaskElilink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -681,8 +666,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1300,7 +1284,8 @@
       <workItem from="1504462372465" duration="3639000" />
       <workItem from="1504607322286" duration="25866000" />
       <workItem from="1504640958277" duration="1065000" />
-      <workItem from="1504642159708" duration="1787000" />
+      <workItem from="1504642159708" duration="2001000" />
+      <workItem from="1504645108681" duration="6000" />
     </task>
     <task id="LOCAL-00001">
       <created>1503619639657</created>
@@ -1313,12 +1298,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Case_3 - 2017.09.05 at 14h 13m 10s.xml">
-      <configuration name="Case_3" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Case_3 - 2017.09.05 at 14h 15m 01s.xml">
-      <configuration name="Case_3" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Case_3 - 2017.09.05 at 14h 17m 31s.xml">
       <configuration name="Case_3" configurationId="TestNG" />
     </history-entry>
@@ -1343,9 +1322,15 @@
     <history-entry file="_Users_user_IdeaProjects_idAcademy_TestTaskElilink_src_main_resources_test_xml - 2017.09.05 at 23h 33m 52s.xml">
       <configuration name="/Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_user_IdeaProjects_idAcademy_TestTaskElilink_src_main_resources_test_xml - 2017.09.05 at 23h 50m 12s.xml">
+      <configuration name="/Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_user_IdeaProjects_idAcademy_TestTaskElilink_src_main_resources_test_xml - 2017.09.05 at 23h 52m 22s.xml">
+      <configuration name="/Users/user/IdeaProjects/idAcademy/TestTaskElilink/src/main/resources/test.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362729000" />
+    <option name="totallyTimeSpent" value="363719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1354,19 +1339,18 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28674698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28674698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3662375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37124464" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1378,6 +1362,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1439,24 +1424,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/arch/log_file.log" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/arch/CNN results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="9999" column="108" lean-forward="false" selection-start-line="9999" selection-start-column="108" selection-end-line="9999" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/arch/CNN results.txt" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Case_4.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNNSearch.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/xStaff/CNN.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/drivers/chromedriver" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/arch/CNN results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4026">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/arch/CNN results.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/exception/UnknownDriverTypeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1508,7 +1481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,13 +1510,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/arch/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="74" lean-forward="false" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/arch/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1569,24 +1535,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Circle.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.5.3/selenium-support-3.5.3.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1621,14 +1570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Case_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Case_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1643,7 +1584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1651,9 +1591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1661,9 +1598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1671,9 +1605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="33" column="58" lean-forward="false" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1681,17 +1612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getQuantityLetters#0;class#MailGMailPage#0" expanded="false" />
-            <element signature="method#isCurrentUrl#0;class#MailGMailPage#0" expanded="false" />
-            <element signature="method#getCollectionByWord#0;class#MailGMailPage#0" expanded="false" />
-            <element signature="method#sentMail#0;class#MailGMailPage#0" expanded="false" />
-            <element signature="method#logOut#0;class#MailGMailPage#0" expanded="false" />
-            <element signature="method#clickSentLetters#0;class#MailGMailPage#0" expanded="false" />
-            <element signature="method#clickSpamLetters#0;class#MailGMailPage#0" expanded="false" />
-            <element signature="method#clickOpenAllMenu#0;class#MailGMailPage#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1699,9 +1619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1709,7 +1626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1717,9 +1633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-750">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1727,11 +1640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <element signature="method#putCombination#0;class#HomeDeltaPage#0" expanded="false" />
-            <element signature="method#clickFindButton#0;class#HomeDeltaPage#0" expanded="false" />
-            <element signature="method#closePopUp#0;class#HomeDeltaPage#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1739,13 +1647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#putPassengerName#0;class#PassengerInfoDeltaPage#0" expanded="false" />
-            <element signature="method#putPassengerBirth#0;class#PassengerInfoDeltaPage#0" expanded="false" />
-            <element signature="method#putPassengerContactInformation#0;class#PassengerInfoDeltaPage#0" expanded="false" />
-            <element signature="method#clickContinueButton#0;class#PassengerInfoDeltaPage#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1753,11 +1654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="method#selectTickets#0;class#TicketsDeltaPage#0" expanded="false" />
-            <element signature="method#clickContinueButton#0;class#TicketsDeltaPage#0" expanded="false" />
-            <element signature="method#isTicketsSum#0;class#TicketsDeltaPage#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1772,7 +1668,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_5/CNN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
             <element signature="method#initWebClient#0;class#CNN#0" expanded="false" />
             <element signature="method#waitJS#0;class#CNN#0" expanded="false" />
@@ -1780,17 +1676,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log_file.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_4/FTPClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="615">
           <caret line="163" column="23" lean-forward="false" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1802,6 +1690,34 @@
             <element signature="method#close#0;class#FTPClient#0" expanded="false" />
             <element signature="method#getPASVPort#0;class#FTPClient#0" expanded="false" />
             <element signature="method#sendLine#0;class#FTPClient#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Case_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log_file.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
           </folding>
         </state>
       </provider>

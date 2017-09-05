@@ -68,3 +68,73 @@
 2017-09-05 23:36:24 INFO  [main]: Trump's DACA dodge could haunt the US
 2017-09-05 23:36:24 INFO  [main]: How Obama's note to Trump defied history
 2017-09-05 23:36:24 INFO  [main]: founded: 7
+2017-09-05 23:50:44 INFO  [<init>]: IndexTutByPage
+2017-09-05 23:50:50 INFO  [putRequest]: automated testing
+2017-09-05 23:50:55 INFO  [<init>]: SearchTutByPage
+2017-09-05 23:50:56 INFO  [checkException]: founded: 15
+2017-09-05 23:50:56 INFO  [checkException]: searching on page: Minsk Automated Testing Community: false
+2017-09-05 23:50:57 INFO  [<init>]: SingInGMailPage
+2017-09-05 23:51:00 INFO  [<init>]: MailGMailPage
+2017-09-05 23:51:05 INFO  [getQuantityLetters]: InBox: 8
+2017-09-05 23:51:08 INFO  [isCurrentUrl]: true
+2017-09-05 23:51:10 INFO  [getQuantityLetters]: Sent: 15
+2017-09-05 23:51:11 INFO  [isCurrentUrl]: true
+2017-09-05 23:51:14 INFO  [getQuantityLetters]: Spam: 8
+2017-09-05 23:51:16 INFO  [isCurrentUrl]: true
+2017-09-05 23:51:23 INFO  [getCollectionByWord]: text / found: 2
+2017-09-05 23:51:23 INFO  [sentMail]: to: entityfortest@gmail.com
+2017-09-05 23:51:26 INFO  [logOut]: 
+2017-09-05 23:51:28 INFO  [<init>]: HomeDeltaPage
+2017-09-05 23:51:36 INFO  [closePopUp]: closed
+2017-09-05 23:51:36 INFO  [putCombination]: Combination{from='JFK', to='SVO', departDate='11092017', returnDate='11142017'}
+2017-09-05 23:51:38 INFO  [<init>]: TicketsDeltaPage
+2017-09-05 23:51:38 INFO  [selectTickets]: first...
+2017-09-05 23:51:51 INFO  [selectTickets]: second...
+2017-09-05 23:52:04 INFO  [<init>]: PassengerInfoDeltaPage
+2017-09-05 23:52:04 INFO  [putPassengerName]: Passenger{firstName='Ivan', lastName='Ivanov', phone='291231212', email='entityfortest@gmail.com'}
+2017-09-05 23:52:06 INFO  [putPassengerBirth]: Male 4 February 1989
+2017-09-05 23:52:21 INFO  [<init>]: CreditCardDeltaPage
+2017-09-05 23:52:21 INFO  [isPurchaseButtonEnabled]: true
+2017-09-05 23:52:31 INFO  [connect]: FTPAddress{frtAddress='ftp.byfly.by', port=21, user='anonymous', password='anonymous'}
+2017-09-05 23:52:31 INFO  [connect]: 220 (vsFTPd 2.3.2)
+2017-09-05 23:52:31 INFO  [connect]: 331 Please specify the password.
+2017-09-05 23:52:31 INFO  [connect]: 230 Login successful.
+2017-09-05 23:52:31 INFO  [getPASVPort]: 227 Entering Passive Mode (82,209,230,71,241,172).
+2017-09-05 23:52:31 INFO  [getPASVPort]: IP: 82.209.230.71 Port: 61868
+2017-09-05 23:52:31 INFO  [getCatalogDir]: [blog, byfly, debian, debian-backports, debian-cd, debian-multimedia, debian-security, pub, releases, test, ubuntu, www.FreeBSD.org]
+2017-09-05 23:52:31 INFO  [goToDir]: 'blog': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'byfly': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'debian': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'debian-backports': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'debian-cd': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'debian-multimedia': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'debian-security': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'pub': 250 Directory successfully changed.
+2017-09-05 23:52:31 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:32 INFO  [goToDir]: 'releases': 250 Directory successfully changed.
+2017-09-05 23:52:32 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:32 INFO  [goToDir]: 'test': 250 Directory successfully changed.
+2017-09-05 23:52:32 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:32 INFO  [goToDir]: 'ubuntu': 250 Directory successfully changed.
+2017-09-05 23:52:32 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:32 INFO  [goToDir]: 'www.FreeBSD.org': 250 Directory successfully changed.
+2017-09-05 23:52:32 INFO  [goToDir]: 'main page': 250 Directory successfully changed.
+2017-09-05 23:52:32 INFO  [isCreateDir]: 550 Permission denied.
+2017-09-05 23:52:32 INFO  [close]: 221 Goodbye.
+2017-09-05 23:52:47 INFO  [initWebClient]: http://edition.cnn.com/
+2017-09-05 23:53:40 INFO  [waitJS]: 
+2017-09-05 23:54:34 INFO  [main]: Trump scraps amnesty for 800,000 young immigrants
+2017-09-05 23:54:34 INFO  [main]: Obama slams Trump decision
+2017-09-05 23:54:34 INFO  [main]: Trump didn't even show his face
+2017-09-05 23:54:34 INFO  [main]: Cillizza: Trump flat-out lied about wiretapping
+2017-09-05 23:54:34 INFO  [main]: Refugee designer protests Trump travel ban
+2017-09-05 23:54:34 INFO  [main]: Trump's DACA dodge could haunt the US
+2017-09-05 23:54:34 INFO  [main]: How Obama's note to Trump defied history
+2017-09-05 23:54:35 INFO  [main]: founded: 7
