@@ -34,15 +34,3 @@
 2017-09-08 19:17:42 INFO  [<init>]: TicketsDeltaPage
 2017-09-08 19:17:42 INFO  [selectTickets]: first...
 2017-09-08 19:18:37 INFO  [selectTickets]: second...
-2017-09-08 19:21:35 INFO  [<init>]: HomeDeltaPage
-2017-09-08 19:22:40 ERROR [closePopUp]: didn't appear
-2017-09-08 19:22:40 INFO  [putCombination]: Combination{from='JFK', to='SVO', departDate='11092017', returnDate='11142017'}
-2017-09-08 19:22:47 INFO  [<init>]: TicketsDeltaPage
-2017-09-08 19:22:47 INFO  [selectTickets]: first...
-2017-09-08 19:22:59 INFO  [selectTickets]: second...
-2017-09-08 19:23:06 WARN  [selectTickets]: Total and sum of tickets is different
-2017-09-08 19:23:10 INFO  [<init>]: PassengerInfoDeltaPage
-2017-09-08 19:23:10 INFO  [putPassengerName]: Passenger{firstName='Ivan', lastName='Ivanov', phone='291231212', email='entityfortest@gmail.com'}
-2017-09-08 19:23:11 INFO  [putPassengerBirth]: Male 4 February 1989
-2017-09-08 19:23:22 INFO  [<init>]: CreditCardDeltaPage
-2017-09-08 19:23:22 INFO  [isPurchaseButtonEnabled]: true

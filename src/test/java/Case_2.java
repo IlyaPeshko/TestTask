@@ -6,16 +6,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Case_2 extends BaseTest {
-    private static Account account = new Account("entityfortest@gmail.com", "eftversion1");
-    private static final String inboxURL = "https://mail.google.com/mail/#inbox";
-    private static final String sentURL = "https://mail.google.com/mail/#sent";
-    private static final String spamURL = "https://mail.google.com/mail/#spam";
-    private static final String indexURL = "http://gmail.com";
 
     @Test()
     public void test () throws InterruptedException {
         SingInGMailPage singInPage = new SingInGMailPage(driver);
-        driver.get(indexURL);
+        driver.get(indexURLGmail);
 
         MailGMailPage mailPage = singInPage.
                 putEmail(account).

@@ -2,19 +2,17 @@ import by.htp.task.task_1_2_3.ui.page.task_1.IndexTutByPage;
 import org.openqa.selenium.WebDriverException;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class Case_1 extends BaseTest {
 
-    private static String target = "Minsk Automated Testing Community";
-    private static final String indexURL = "https://www.tut.by/";
-    private static final String request = "automated testing";
-
     @Test(expectedExceptions = {WebDriverException.class})
-    public void test() {
+    public void test() throws IOException {
         IndexTutByPage tutBy = new IndexTutByPage(driver);
-        driver.get(indexURL);
-        tutBy.putRequest(request).
+        driver.get(indexURLTutBy);
+        tutBy.putRequest(requestTutBy).
                 clickSearch().
-                checkException(target);
+                checkException(targetTutBy);
 
     }
 }

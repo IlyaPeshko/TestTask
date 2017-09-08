@@ -4,18 +4,23 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-public class BaseTest {
+import java.io.IOException;
+
+public class BaseTest extends Property {
 
     protected WebDriver driver;
 
     @BeforeClass
-    public void init (){
-        driver = Driver.getWebDriverInstance(DriverTypes.GC_MAC64);
+    public void init () throws IOException {
+        initProperties();
+        driver = Driver.getWebDriverInstance(DriverTypes.valueOf(driverType));
         driver.manage().window().maximize();
+
     }
 
     @AfterClass
     public void cleanUp () {
         driver.close();
     }
+
 }
