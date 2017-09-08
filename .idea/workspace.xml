@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8866d215-1332-45e8-aab1-bd2850d7b4e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Property.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/log_file.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/UtilityImpl.class" afterPath="$PROJECT_DIR$/target/classes/by/htp/task/task_1_2_3/ui/page/UtilityImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Case_1.class" afterPath="$PROJECT_DIR$/target/test-classes/Case_1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Case_2.class" afterPath="$PROJECT_DIR$/target/test-classes/Case_2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Case_3.class" afterPath="$PROJECT_DIR$/target/test-classes/Case_3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Utility.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Utility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/UtilityImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/UtilityImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.java" afterPath="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case_1.java" afterPath="$PROJECT_DIR$/src/test/java/Case_1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case_2.java" afterPath="$PROJECT_DIR$/src/test/java/Case_2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case_3.java" afterPath="$PROJECT_DIR$/src/test/java/Case_3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test.properties" afterPath="$PROJECT_DIR$/src/main/resources/test.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,21 +53,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="0">
+              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Case_3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Case_3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Case_3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverTypes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="84" lean-forward="false" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -219,10 +215,10 @@
         <option value="$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/UtilityImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log_file.log" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test.properties" />
         <option value="$PROJECT_DIR$/src/test/java/InitProperties.java" />
         <option value="$PROJECT_DIR$/src/test/java/Property.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.properties" />
       </list>
     </option>
   </component>
@@ -586,6 +582,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webDriver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1287,7 +1287,7 @@
       <workItem from="1504721523974" duration="7084000" />
       <workItem from="1504737690495" duration="1867000" />
       <workItem from="1504780554007" duration="3821000" />
-      <workItem from="1504873192589" duration="12522000" />
+      <workItem from="1504873192589" duration="12626000" />
     </task>
     <task id="LOCAL-00001">
       <created>1503619639657</created>
@@ -1312,8 +1312,8 @@
     <history-entry file="Case_3 - 2017.09.08 at 19h 14m 47s.xml">
       <configuration name="Case_3" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_user_IdeaProjects_Tasks_TestTaskElilink_src_main_resources_test_xml - 2017.09.08 at 18h 53m 01s.xml">
-      <configuration name="/Users/user/IdeaProjects/Tasks/TestTaskElilink/src/main/resources/test.xml" configurationId="TestNG" />
+    <history-entry file="Case_3 - 2017.09.08 at 19h 23m 22s.xml">
+      <configuration name="Case_3" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_user_IdeaProjects_Tasks_TestTaskElilink_src_main_resources_test_xml - 2017.09.08 at 19h 02m 30s.xml">
       <configuration name="/Users/user/IdeaProjects/Tasks/TestTaskElilink/src/main/resources/test.xml" configurationId="TestNG" />
@@ -1332,7 +1332,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="411643000" />
+    <option name="totallyTimeSpent" value="411747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1347,10 +1347,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28674698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28674698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4155937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1737,14 +1737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="84" lean-forward="false" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/page/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1789,14 +1781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Property.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -1825,6 +1809,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/htp/task/task_1_2_3/ui/webDriver/DriverTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="84" lean-forward="false" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
