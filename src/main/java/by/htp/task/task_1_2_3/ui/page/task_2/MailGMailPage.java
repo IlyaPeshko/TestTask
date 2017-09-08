@@ -8,15 +8,12 @@ import java.util.List;
 
 public class MailGMailPage extends SingInGMailPage {
 
-    protected static boolean isResult;
-    protected static String driverUrl;
-
     public MailGMailPage(WebDriver driver) {
         super(driver);
     }
 
     public List getQuantityLetters(String url){
-        List <WebElement> listInBox = driver.findElements(letterCounterElement);
+        List <WebElement> listInBox = letterCounterElement;
         log.info(url + ": " + listInBox.size());
         driver.navigate().refresh();
 
@@ -37,7 +34,7 @@ public class MailGMailPage extends SingInGMailPage {
         driver.navigate().refresh();
         driver.navigate().refresh();
 
-        List <WebElement> listInBox = driver.findElements(letterCounterElement);
+        List <WebElement> listInBox = letterCounterElement;
         List <String> listInBoxString = new ArrayList<String>();
 
         for (WebElement element : listInBox) {

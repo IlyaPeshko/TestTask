@@ -7,14 +7,12 @@ import java.util.List;
 
 public class SearchTutByPage extends IndexTutByPage {
 
-    protected boolean isFounded = false;
-
     public SearchTutByPage(WebDriver driver) {
         super(driver);
     }
 
     public void checkException( String target) {
-        List<WebElement> list = driver.findElements(resultElement);
+        List<WebElement> list = resultElement;
         for (WebElement element : list) {
             if (element.getText().equals(target) & element.isEnabled()){
                 element.click();

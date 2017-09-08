@@ -10,18 +10,7 @@ import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.util.ArrayList;
 
-public class FTPClient {
-
-    private Socket socket = null;
-    private BufferedReader buffReader = null;
-    private BufferedWriter buffWriter = null;
-    private InputStreamReader inputStreamReader;
-    private OutputStreamWriter outputStreamWriter;
-
-    private final String WELCOME_RESPONSE = "220";
-    private final String USER_OK_NEED_PASS_RESPONSE = "331";
-    private final String USER_IS_LOGED_RESPONSE = "230";
-    private final String CREATE_DIR_PERMISSION_DENIED_RESPONSE = "550 Permission denied.";
+public class FTPClient extends FTP {
 
     public synchronized void connect(FTPAddress address) throws IOException{
         log.info(address);

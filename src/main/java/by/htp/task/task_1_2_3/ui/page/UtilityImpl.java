@@ -14,12 +14,12 @@ public class UtilityImpl implements Utility{
         return driver;
     }
 
-    public void waitElement (WebDriver driver, By by){
+    public void waitElement (WebDriver driver, WebElement element){
         //log.debug("waiting...");
         log.debug("waiting...");
         WebDriverWait driverWait = new WebDriverWait(driver, 90, 1000);
-        driverWait.until(ExpectedConditions.or(
-                ExpectedConditions.elementToBeClickable(by)));
+        //conflicted with com.crawljax / maven
+        driverWait.until(ExpectedConditions.or(ExpectedConditions.elementToBeClickable(element)));
 
 
     }

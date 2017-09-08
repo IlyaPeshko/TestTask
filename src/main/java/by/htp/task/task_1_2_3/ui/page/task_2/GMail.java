@@ -1,11 +1,12 @@
 package by.htp.task.task_1_2_3.ui.page.task_2;
 
 import by.htp.task.task_1_2_3.ui.page.Page;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+
+import java.util.List;
 
 class GMail extends Page {
     @FindBy(how= How.ID, id="identifierId")
@@ -39,7 +40,11 @@ class GMail extends Page {
     WebElement inputTextElement;
     @FindBy(how= How.XPATH, xpath=".//*[@data-tooltip-delay='800' and @role='button']")
     WebElement sentButtonElement;
-    protected static final By letterCounterElement = By.xpath("//tr[@draggable='true']");
+    @FindBy(how= How.XPATH, xpath=".//tr[@draggable='true']")
+    List <WebElement> letterCounterElement;
+
+    protected static boolean isResult;
+    protected static String driverUrl;
 
     public GMail(WebDriver driver) {
         super(driver);

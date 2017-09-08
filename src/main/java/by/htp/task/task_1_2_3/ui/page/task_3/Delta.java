@@ -1,7 +1,6 @@
 package by.htp.task.task_1_2_3.ui.page.task_3;
 
 import by.htp.task.task_1_2_3.ui.page.Page;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -32,7 +31,9 @@ public class Delta extends Page {
     WebElement continueButtonElement;
     @FindBy(how = How.XPATH, xpath = ".//*[@id='tripPriceTotals']/div/div/div[2]/span[3]")
     WebElement centTotalPriceElement;
-    public static final By waitSecondTicketElement = By.xpath(".//*[@id='fareRowContainer_1']/tbody/tr[2]/td[2]");
+    @FindBy(how = How.XPATH, xpath = ".//*[@id='fareRowContainer_1']/tbody/tr[2]/td[2]")
+    WebElement waitSecondTicketElement;
+
 
     //TicketsDeltaPage
     //putPassengerName / Mr. Ivan Ivanov
